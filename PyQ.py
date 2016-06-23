@@ -52,7 +52,7 @@ def exePause():
 	if sys.argv[0].endswith('.exe'):
 		os.system('pause')
 if len(sys.argv)<2:
-	print 'PyQ.py version 0.1 by Travis Wells <pyq@3dmm2.com>'
+	print 'PyQ.py version 0.1 by Foone Turing (@foone)'
 	print 'Usage: PyQ.py <filename.wav> [filename2.wav] [filename3.wav] [...] [filenameN.wav]'
 	print "\nIf you're using the .exe version, you can simply drag a WAV file onto the PyQ.exe file and it'll convert"
 	exePause()
